@@ -64,6 +64,15 @@ DOMAINSCAN_DIR=/path/to/out node dnscheck.mjs 30 0 300 balanced
 
 手选示例（RDAP 复核 404）：`guvek.com`、`vatib.com`、`zepab.com`、`jateg.com`、`tebif.com`
 
+## 示例输出
+
+![demo](example/demo.png)
+
+完整结果快照见 `example/`：
+
+- `example/available-2026-11-21.txt` — 1,853 个可注册域名
+- `example/available-2026-11-21.csv` — 带评分与验证来源
+
 ## 注意
 
 - NXDOMAIN 只是预筛信号，最终能否注册必须以 **RDAP 或注册商实时查询** 为准。
