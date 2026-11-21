@@ -1,0 +1,22 @@
+# scan data & outputs
+dns.jsonl
+verified.jsonl
+results.jsonl
+available.txt
+available.csv
+report.md
+ranked.txt
+curated_raw.txt
+done.txt
+done_all.txt
+nx_all.tsv
+nx_sorted.txt
+pending.txt
+pending2.txt
+pending3.txt
+todo.tsv
+vd1.txt
+vd2.txt
+curl_verify.txt
+*.log
+node_modules/
